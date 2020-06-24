@@ -1,4 +1,8 @@
 
 
-<p><%=@student.each {|name| puts name}  %></p>
+<p><%= @student.each {|student| puts student.first_name + " " + student.last_name} %></p>
+
+<%# <div><%= student.first_name + " " + student.last_name </div> %>
+<%# <% end %> 
+<%# Ignore the above code lol %>
 <%# the info we want displayed is the first and last name %>
